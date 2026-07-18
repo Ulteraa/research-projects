@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Downloaded datasets and generated artifacts
+datasets/
+outputs/
+d3rlpy_logs/
+*.d3
+*.pt
+*.mp4
+*.npy
+
+# Local notebooks and editor files
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store

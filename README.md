@@ -14,6 +14,15 @@ A joint training prototype combining the official 3D Gaussian Splatting pipeline
 
 **Status:** Working research prototype with qualitative inspection. Controlled GS-only comparisons and ablation studies remain future work.
 
+
+### [Offline RL Benchmarking and Stability Analysis with CQL](offline-rl-cql)
+
+A reproducible offline reinforcement learning project on Minari Walker2d, covering CQL training, periodic rollout evaluation, checkpoint selection, hyperparameter sweeps, critic-count ablations, cloud GPU execution, and failure analysis.
+
+**Topics:** Offline RL · CQL · Continuous control · MuJoCo · Minari · d3rlpy · PyTorch
+
+**Status:** Working research prototype. The training and evaluation pipeline runs successfully; increasing critic count did not reliably improve performance, and no universal improvement over standard CQL is claimed.
+
 ## About
 
 This repository is a portfolio of research-oriented implementations. Projects may range from completed systems to clearly labeled experimental prototypes. Performance claims are limited to the evidence documented within each project.

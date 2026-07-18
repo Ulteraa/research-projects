@@ -1,0 +1,11 @@
+# Tested project stack
+# Python 3.12
+# Install a CUDA-compatible PyTorch build separately when using a GPU.
+
+d3rlpy==2.8.1
+minari[hf]==0.5.3
+gymnasium==1.0.0
+mujoco==3.2.3
+imageio==2.37.3
+imageio-ffmpeg>=0.5,<1
+numpy>=2.0,<3
