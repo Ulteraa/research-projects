@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+.DS_Store
+
+# Datasets and generated artifacts
+*.hdf5
+*.h5
+*.pt
+*.pth
+*.mp4
+*.avi
+outputs/
+checkpoints/
+videos/
+logs/

@@ -23,6 +23,15 @@ A reproducible offline reinforcement learning project on Minari Walker2d, coveri
 
 **Status:** Working research prototype. The training and evaluation pipeline runs successfully; increasing critic count did not reliably improve performance, and no universal improvement over standard CQL is claimed.
 
+
+### [Safe Offline-to-Online RL for Vision-Based Robotic Manipulation](safe-o2o-robomimic)
+
+A RoboMimic research prototype that combines a visual behavior-cloning prior, conservative actor-critic updates, critic-ensemble disagreement, and multi-camera RoboSuite evaluation. The validated implementation covers the offline policy-improvement stage; online adaptation remains future work.
+
+**Topics:** Robot learning · Offline RL · Behavior cloning · RoboMimic · RoboSuite · Multi-camera perception · Uncertainty
+
+**Status:** Working Lift prototype with a measured improvement from 68% BC success to 76% actor success over 50 episodes. The Can extension achieved 0/20 BC success with both one and two cameras, and is documented as an honest negative result requiring sequence modeling and stronger baselines.
+
 ## About
 
 This repository is a portfolio of research-oriented implementations. Projects may range from completed systems to clearly labeled experimental prototypes. Performance claims are limited to the evidence documented within each project.
