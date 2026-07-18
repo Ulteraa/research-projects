@@ -1,0 +1,4 @@
+# Install this after creating the official Gaussian Splatting environment.
+plyfile>=1.0,<2
+
+

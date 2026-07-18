@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+
+# Data and generated outputs
+data/
+datasets/
+output/
+outputs/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.ply
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+wandb/
+runs/
+
+
