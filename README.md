@@ -56,6 +56,14 @@ A TensorRT 8.x conversion prototype for joint Detectron2 Mask R-CNN/Swin-T infer
 
 **Status:** Working research prototype with qualitative before/after conversion evidence. The supplied report contains no reproducible accuracy or latency table, so no speedup or accuracy-preservation claim is made.
 
+### [Interactive SAM Annotation Tool for COCO Segmentation](interactive-sam-annotation-tool)
+
+A curated desktop annotation tool that combines Segment Anything box and positive/negative point prompts with manual polygons, saved-mask editing, resumable COCO export, validation, and dependency-light visualization.
+
+**Topics:** Data annotation · Interactive segmentation · Segment Anything · COCO · Human-in-the-loop vision · Computer vision tooling
+
+**Status:** Working research prototype with qualitative examples and automated COCO writer/renderer tests. The supplied report contains no timing, user-study, or mask-accuracy comparison, so no productivity or quality-improvement claim is made.
+
 ## About
 
 This repository is a portfolio of research-oriented implementations. Projects may range from completed systems to clearly labeled experimental prototypes. Performance claims are limited to the evidence documented within each project.
