@@ -32,6 +32,14 @@ A RoboMimic research prototype that combines a visual behavior-cloning prior, co
 
 **Status:** Working Lift prototype with a measured improvement from 68% BC success to 76% actor success over 50 episodes. The Can extension achieved 0/20 BC success with both one and two cameras, and is documented as an honest negative result requiring sequence modeling and stronger baselines.
 
+### [Reliable Camera–LiDAR BEV Fusion with Proposal-Level 3D Box Refinement](bevfusion-reliable-refinement)
+
+A multimodal 3D detection research prototype extending MMDetection3D/BEVFusion with a reliability-aware camera–LiDAR fusion block and a proposal-level refinement head that samples local fused-BEV context to predict residual corrections for 3D box geometry and motion.
+
+**Topics:** Multimodal 3D detection · BEVFusion · MMDetection3D · Camera–LiDAR fusion · nuScenes · 3D box refinement
+
+**Status:** Working nuScenes-mini research prototype with implemented training, evaluation, and qualitative visualization paths. The reliability-aware fuser did not beat the baseline in the recorded six-epoch ablation, and final quantitative results for the proposal-refinement experiment remain incomplete; no general improvement claim is made.
+
 ## About
 
 This repository is a portfolio of research-oriented implementations. Projects may range from completed systems to clearly labeled experimental prototypes. Performance claims are limited to the evidence documented within each project.
