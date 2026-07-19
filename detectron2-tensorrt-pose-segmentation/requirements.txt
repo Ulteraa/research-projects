@@ -1,0 +1,9 @@
+# Historical compatibility set for the TensorRT 8.6 Detectron2 sample.
+numpy==1.23.2
+onnx==1.12.0
+onnxruntime==1.12.1
+Pillow>=9.2,<10
+opencv-python-headless==4.7.0.72
+PyYAML>=6,<7
+timm==0.4.12
+onnx_graphsurgeon @ git+https://github.com/NVIDIA/TensorRT.git@a0215c1a16c6413c7ac566a498871a4fa36f6f62#subdirectory=tools/onnx-graphsurgeon

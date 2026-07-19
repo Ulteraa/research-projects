@@ -1,0 +1,8 @@
+diff --git a/detectron2/structures/keypoints.py b/detectron2/structures/keypoints.py
+--- a/detectron2/structures/keypoints.py
++++ b/detectron2/structures/keypoints.py
+@@ -232,2 +232,2 @@ def heatmaps_to_keypoints(maps: torch.Tensor, rois: torch.Tensor) -> torch.Tensor
+-        xy_preds[i, :, 2] = roi_map[keypoints_idx, y_int, x_int]
+-        xy_preds[i, :, 3] = roi_map_scores[keypoints_idx, y_int, x_int]
++        # ONNX tracing consumes the heatmaps directly; these indexed score
++        # assignments are intentionally omitted from the traced path.

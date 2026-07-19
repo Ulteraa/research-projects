@@ -48,6 +48,14 @@ A modified Ultralytics YOLOv8 framework that introduces a unified `pose_segment`
 
 **Status:** Working research prototype with qualitative COCO and converted-model outputs. A controlled numeric comparison against separate pose and segmentation baselines is not available, so no accuracy or speedup claim is made.
 
+### [Detectron2 TensorRT: Joint Pose Estimation and Instance Segmentation](detectron2-tensorrt-pose-segmentation)
+
+A TensorRT 8.x conversion prototype for joint Detectron2 Mask R-CNN/Swin-T inference. It extends NVIDIA's box-and-mask graph-surgery path with a post-NMS keypoint ROIAlign branch, configurable keypoint heatmap output, joint decoding and visualization, pinned framework reconstruction, and evaluation support.
+
+**Topics:** Human analysis · Detectron2 · Mask R-CNN · Swin Transformer · Pose estimation · Instance segmentation · ONNX · TensorRT
+
+**Status:** Working research prototype with qualitative before/after conversion evidence. The supplied report contains no reproducible accuracy or latency table, so no speedup or accuracy-preservation claim is made.
+
 ## About
 
 This repository is a portfolio of research-oriented implementations. Projects may range from completed systems to clearly labeled experimental prototypes. Performance claims are limited to the evidence documented within each project.

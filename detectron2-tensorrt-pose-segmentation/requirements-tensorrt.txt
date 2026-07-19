@@ -1,0 +1,5 @@
+-r requirements.txt
+cuda-python>=11.8,<12
+
+# Install TensorRT 8.6.x and its Python bindings using NVIDIA's installation
+# guide. The scripts use the legacy binding API and are not TensorRT 10-ready.
