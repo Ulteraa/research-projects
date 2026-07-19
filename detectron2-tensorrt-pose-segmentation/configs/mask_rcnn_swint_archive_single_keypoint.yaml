@@ -1,0 +1,13 @@
+_BASE_: "mask_rcnn_swint_joint.yaml"
+# Historical settings found in the uploaded archive. This is kept separately
+# because it does not represent a 17-keypoint COCO pose model.
+MODEL:
+  ROI_HEADS:
+    NUM_CLASSES: 2
+  ROI_KEYPOINT_HEAD:
+    NUM_KEYPOINTS: 1
+DATASETS:
+  TRAIN: ("experiment",)
+  TEST: ("experiment_test",)
+TEST:
+  KEYPOINT_OKS_SIGMAS: [0.1]

@@ -1,0 +1,13 @@
+.venv/
+.vendor/
+__pycache__/
+*.py[cod]
+*.engine
+*.plan
+*.trt
+*.onnx
+*.pth
+*.pkl
+calibration.cache
+output/
+results/
