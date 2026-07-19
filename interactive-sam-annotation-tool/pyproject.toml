@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "interactive-sam-annotation-tool"
+version = "0.1.0"
+description = "SAM-assisted box, point, and manual polygon annotation with COCO export"
+readme = "README.md"
+requires-python = ">=3.9"
+dynamic = ["dependencies"]
+
+[project.scripts]
+sam-annotate = "sam_annotation_tool.app:main"
+sam-validate-coco = "sam_annotation_tool.validate:main"
+sam-visualize-coco = "sam_annotation_tool.visualize:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
