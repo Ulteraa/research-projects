@@ -1,0 +1,5 @@
+numpy>=1.23,<2
+Pillow>=9.2,<12
+matplotlib>=3.7,<4
+opencv-python-headless==4.8.1.78
+segment-anything @ git+https://github.com/facebookresearch/segment-anything.git@7fa17d78c45f4f642faa89f4c0e590c400f74225
