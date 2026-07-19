@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.cache
+.venv/
+third_party/
+runs/
+weights/
+*.pt
+*.onnx
+*.engine
+*.torchscript
+*.mlpackage/

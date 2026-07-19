@@ -1,0 +1,5 @@
+# Optional model-export dependencies. TensorRT must be installed for the
+# target NVIDIA/CUDA platform separately.
+onnx>=1.12.0
+onnxruntime>=1.15.0
+onnxslim>=0.1.31

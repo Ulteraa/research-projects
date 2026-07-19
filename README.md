@@ -40,6 +40,14 @@ A multimodal 3D detection research prototype extending MMDetection3D/BEVFusion w
 
 **Status:** Working nuScenes-mini research prototype with implemented training, evaluation, and qualitative visualization paths. The reliability-aware fuser did not beat the baseline in the recorded six-epoch ablation, and final quantitative results for the proposal-refinement experiment remain incomplete; no general improvement claim is made.
 
+### [YOLOv8+: Joint Pose Estimation and Instance Segmentation](yolov8plus-joint-pose-segmentation)
+
+A modified Ultralytics YOLOv8 framework that introduces a unified `pose_segment` task, combining person detection, instance masks, and human keypoints in one shared-backbone forward pass. The project includes the framework overlay, joint loss and metrics, annotation tools, reproducible setup, training/inference entry points, and deployment-oriented export support.
+
+**Topics:** Human analysis · Multi-task learning · Pose estimation · Instance segmentation · YOLOv8 · ONNX · TensorRT
+
+**Status:** Working research prototype with qualitative COCO and converted-model outputs. A controlled numeric comparison against separate pose and segmentation baselines is not available, so no accuracy or speedup claim is made.
+
 ## About
 
 This repository is a portfolio of research-oriented implementations. Projects may range from completed systems to clearly labeled experimental prototypes. Performance claims are limited to the evidence documented within each project.
