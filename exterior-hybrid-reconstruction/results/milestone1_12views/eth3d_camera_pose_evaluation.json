@@ -1,0 +1,83 @@
+{
+  "ground_truth_model": "/workspace/exterior-hybrid-reconstruction-m1/data/eth3d_courtyard_full/courtyard/dslr_calibration_undistorted",
+  "models": {
+    "vggt_feedforward": {
+      "common_images": 12,
+      "image_names": [
+        "DSC_0286.JPG",
+        "DSC_0287.JPG",
+        "DSC_0288.JPG",
+        "DSC_0289.JPG",
+        "DSC_0290.JPG",
+        "DSC_0291.JPG",
+        "DSC_0292.JPG",
+        "DSC_0293.JPG",
+        "DSC_0294.JPG",
+        "DSC_0295.JPG",
+        "DSC_0296.JPG",
+        "DSC_0297.JPG"
+      ],
+      "sim3_scale_to_eth3d": 6.858946672131711,
+      "eth3d_camera_path_diameter": 6.9076609613099285,
+      "translation_rmse": 0.03873435421956796,
+      "translation_median": 0.03355609426329331,
+      "translation_max": 0.07790518701828085,
+      "translation_rmse_fraction_of_path": 0.005607448662654486,
+      "rotation_mean_degrees": 1.1877704148645187,
+      "rotation_median_degrees": 1.248158575542262,
+      "rotation_max_degrees": 1.4630420492467864
+    },
+    "vggt_ba": {
+      "common_images": 12,
+      "image_names": [
+        "DSC_0286.JPG",
+        "DSC_0287.JPG",
+        "DSC_0288.JPG",
+        "DSC_0289.JPG",
+        "DSC_0290.JPG",
+        "DSC_0291.JPG",
+        "DSC_0292.JPG",
+        "DSC_0293.JPG",
+        "DSC_0294.JPG",
+        "DSC_0295.JPG",
+        "DSC_0296.JPG",
+        "DSC_0297.JPG"
+      ],
+      "sim3_scale_to_eth3d": 7.293959842962283,
+      "eth3d_camera_path_diameter": 6.9076609613099285,
+      "translation_rmse": 0.0126828445211689,
+      "translation_median": 0.010936255614381402,
+      "translation_max": 0.02197401220320587,
+      "translation_rmse_fraction_of_path": 0.001836054866069136,
+      "rotation_mean_degrees": 0.4486604993628145,
+      "rotation_median_degrees": 0.4301452169120934,
+      "rotation_max_degrees": 0.6202807906426882
+    },
+    "colmap": {
+      "common_images": 12,
+      "image_names": [
+        "DSC_0286.JPG",
+        "DSC_0287.JPG",
+        "DSC_0288.JPG",
+        "DSC_0289.JPG",
+        "DSC_0290.JPG",
+        "DSC_0291.JPG",
+        "DSC_0292.JPG",
+        "DSC_0293.JPG",
+        "DSC_0294.JPG",
+        "DSC_0295.JPG",
+        "DSC_0296.JPG",
+        "DSC_0297.JPG"
+      ],
+      "sim3_scale_to_eth3d": 0.4967581147186341,
+      "eth3d_camera_path_diameter": 6.9076609613099285,
+      "translation_rmse": 0.008516219462653005,
+      "translation_median": 0.002762358051917353,
+      "translation_max": 0.020325727551077408,
+      "translation_rmse_fraction_of_path": 0.0012328658731736652,
+      "rotation_mean_degrees": 0.32732010108695836,
+      "rotation_median_degrees": 0.35029592092266304,
+      "rotation_max_degrees": 0.3748781509649979
+    }
+  }
+}

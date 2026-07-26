@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local data and generated outputs
+data/*
+!data/README.md
+outputs/*
+!outputs/README.md
+
+# External repositories and model checkpoints
+external/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Large reconstruction artifacts
+*.ply
+*.pcd
+*.obj
+*.npz
+
+# Notebook/editor artifacts
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store

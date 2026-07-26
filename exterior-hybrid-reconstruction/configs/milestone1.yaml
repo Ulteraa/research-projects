@@ -1,0 +1,12 @@
+scene_name: eth3d_courtyard
+scene_dir: data/eth3d_courtyard
+colmap:
+  camera_model: OPENCV
+  matcher: exhaustive
+  use_gpu: true
+  max_image_size: 2400
+vggt:
+  external_repo: external/vggt
+  use_ba: true
+  max_query_pts: 2048
+  query_frame_num: 5

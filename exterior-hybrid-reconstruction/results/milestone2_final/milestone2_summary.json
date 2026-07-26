@@ -1,0 +1,69 @@
+{
+  "project": "Hybrid Exterior Reconstruction: Learning-Guided Geometry for Structured Property Models",
+  "milestone": "Dense Hybrid Fusion \u2014 BA-refined cameras and occlusion-aware multiview filtering",
+  "dataset": "ETH3D Courtyard",
+  "image_count": 12,
+  "selected_images": [
+    "DSC_0286.JPG",
+    "DSC_0287.JPG",
+    "DSC_0288.JPG",
+    "DSC_0289.JPG",
+    "DSC_0290.JPG",
+    "DSC_0291.JPG",
+    "DSC_0292.JPG",
+    "DSC_0293.JPG",
+    "DSC_0294.JPG",
+    "DSC_0295.JPG",
+    "DSC_0296.JPG",
+    "DSC_0297.JPG"
+  ],
+  "selected_variant": "adaptive_r033",
+  "evaluation_note": "Diagnostic evaluation against a sampled ETH3D laser scan using a common visible-region crop. Not an official ETH3D leaderboard score.",
+  "methods": {
+    "raw_ba_vggt_depth": {
+      "voxelized_points": 135300,
+      "median_accuracy_m": 0.10258435661606675,
+      "mean_accuracy_m": 0.14020517443978586,
+      "precision_5cm": 0.2912490761271249,
+      "precision_10cm": 0.49061345158906133,
+      "recall_20cm": 0.6957090476662372,
+      "f1_10cm": 0.4991109714460862,
+      "f1_20cm": 0.7307985431772829
+    },
+    "fused_all_control": {
+      "voxelized_points": 108160,
+      "median_accuracy_m": 0.1048824443280731,
+      "mean_accuracy_m": 0.14329063981053425,
+      "precision_5cm": 0.2842455621301775,
+      "precision_10cm": 0.48160133136094674,
+      "recall_20cm": 0.694975720939451,
+      "f1_10cm": 0.49218319074058786,
+      "f1_20cm": 0.7257917682952089
+    },
+    "adaptive_r033": {
+      "voxelized_points": 67388,
+      "median_accuracy_m": 0.06958629589575932,
+      "mean_accuracy_m": 0.09660671049050887,
+      "precision_5cm": 0.3870273639223601,
+      "precision_10cm": 0.6154063037929601,
+      "recall_20cm": 0.6019423248439203,
+      "f1_10cm": 0.5014895194730251,
+      "f1_20cm": 0.7241212983286811
+    }
+  },
+  "improvements_over_raw": {
+    "median_error_reduction_fraction": 0.3216675700741226,
+    "median_error_reduction_percent": 32.16675700741226,
+    "precision_5cm_absolute_gain": 0.09577828779523517,
+    "precision_5cm_percentage_point_gain": 9.577828779523518,
+    "precision_5cm_relative_gain_percent": 32.88535334389514,
+    "f1_20cm_retention_fraction": 0.990863084072977,
+    "f1_20cm_retention_percent": 99.0863084072977
+  },
+  "portfolio_claim": "On a 12-view ETH3D Courtyard subset, combining VGGT dense depth with bundle-adjusted cameras and occlusion-aware multiview consistency filtering reduced median point-to-scan error by 32%, from 10.26 cm to 6.96 cm, and improved precision within 5 cm from 29.1% to 38.7%, while maintaining nearly the same 20 cm F1 score.",
+  "final_files": {
+    "selected_reconstruction": "dense_hybrid_adaptive_r033_eth3d.ply",
+    "raw_dense_baseline": "dense_hybrid_raw_eth3d.ply",
+    "ground_truth_reference": "eth3d_gt_crop_voxelized.ply"
+  }
+}
