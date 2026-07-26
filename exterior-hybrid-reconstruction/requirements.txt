@@ -1,0 +1,8 @@
+numpy>=1.26,<2
+pillow>=10.0
+pyyaml>=6.0
+tqdm>=4.66
+plyfile>=1.0
+pandas>=2.1
+matplotlib>=3.8
+pycolmap>=3.11
