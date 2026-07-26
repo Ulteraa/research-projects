@@ -6,6 +6,15 @@ These projects emphasize hands-on system design and implementation. Each folder 
 
 ## Projects
 
+
+### [Hybrid Exterior Reconstruction](exterior-hybrid-reconstruction)
+
+A hybrid outdoor 3D reconstruction pipeline combining VGGT feed-forward predictions, classical bundle adjustment, dense depth reconstruction, and adaptive multiview consistency filtering.
+
+**Topics:** Multi-view reconstruction · VGGT · COLMAP · Bundle adjustment · Dense point clouds · ETH3D
+
+**Status:** Working ETH3D Courtyard prototype. Bundle adjustment improved camera-pose accuracy, while adaptive filtering improved dense-cloud precision at the cost of some completeness.
+
 ### [Hybrid Geometry-Aware Gaussian Splatting](hybrid-gs-sdf)
 
 A joint training prototype combining the official 3D Gaussian Splatting pipeline with an image-conditioned signed distance function (SDF) branch. It explores auxiliary geometric supervision and zero-level-set consistency on Gaussian centers.
