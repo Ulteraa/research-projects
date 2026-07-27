@@ -1,0 +1,304 @@
+{
+  "dataset": "rgbd_dataset_freiburg1_room",
+  "input_mesh": "/workspace/interior-slam/results/tum_fr1_room_baseline/tsdf/final/estimated_pose_tsdf_mesh_clean.ply",
+  "decision": "FULL_3D_ROOM_ENVELOPE_SUPPORTED",
+  "reasons": [],
+  "notes": [
+    "Envelope accepted with weak-but-supported wall evidence: x_max."
+  ],
+  "manhattan": {
+    "angle_rad": -0.027417468171546548,
+    "angle_deg": -1.5709052111638833,
+    "concentration": 0.38105858786976493
+  },
+  "floor": {
+    "z_m": -0.030484639413788407,
+    "support_points": 23598,
+    "support_area_m2": 9.680000000000001
+  },
+  "ceiling": {
+    "z_m": 2.7460020155994687,
+    "support_points": 2993,
+    "support_area_m2": 1.4500000000000002
+  },
+  "horizontal_plane_candidates": [
+    {
+      "z_m": -0.030484639413788407,
+      "support_points": 23598,
+      "support_area_m2": 9.680000000000001
+    },
+    {
+      "z_m": 0.7398812913701152,
+      "support_points": 15960,
+      "support_area_m2": 8.730000000000002
+    },
+    {
+      "z_m": 1.2393568518633375,
+      "support_points": 1363,
+      "support_area_m2": 1.6900000000000004
+    },
+    {
+      "z_m": 2.327554802605694,
+      "support_points": 1064,
+      "support_area_m2": 1.04
+    },
+    {
+      "z_m": 2.7460020155994687,
+      "support_points": 2993,
+      "support_area_m2": 1.4500000000000002
+    }
+  ],
+  "x_plane_candidates": [
+    {
+      "coordinate_m": -3.323788623420691,
+      "support_points": 512,
+      "vertical_span_m": 0.216105788255891,
+      "tangent_span_m": 0.9777184264207097,
+      "occupied_cells": 26,
+      "residual_rmse_m": 0.034392092564247856,
+      "persistent": false
+    },
+    {
+      "coordinate_m": -2.0737886234206955,
+      "support_points": 7688,
+      "vertical_span_m": 2.1579638909891985,
+      "tangent_span_m": 4.241513014334244,
+      "occupied_cells": 240,
+      "residual_rmse_m": 0.03944169354298675,
+      "persistent": true
+    },
+    {
+      "coordinate_m": -1.623788623420697,
+      "support_points": 9337,
+      "vertical_span_m": 1.872193489659982,
+      "tangent_span_m": 3.0788311504834542,
+      "occupied_cells": 282,
+      "residual_rmse_m": 0.0383898852252122,
+      "persistent": true
+    },
+    {
+      "coordinate_m": -0.7737886234207001,
+      "support_points": 818,
+      "vertical_span_m": 1.9829889579310156,
+      "tangent_span_m": 1.9425389112276759,
+      "occupied_cells": 42,
+      "residual_rmse_m": 0.042687860538612205,
+      "persistent": true
+    },
+    {
+      "coordinate_m": -0.02378862342070276,
+      "support_points": 846,
+      "vertical_span_m": 0.41704085411019776,
+      "tangent_span_m": 3.979747067054222,
+      "occupied_cells": 55,
+      "residual_rmse_m": 0.04870539116148411,
+      "persistent": false
+    },
+    {
+      "coordinate_m": 0.42621137657929564,
+      "support_points": 971,
+      "vertical_span_m": 1.2133116033486495,
+      "tangent_span_m": 5.982105521144508,
+      "occupied_cells": 54,
+      "residual_rmse_m": 0.038495667299994894,
+      "persistent": false
+    },
+    {
+      "coordinate_m": 0.7262113765792946,
+      "support_points": 1231,
+      "vertical_span_m": 1.5788960512862245,
+      "tangent_span_m": 4.71790458839545,
+      "occupied_cells": 59,
+      "residual_rmse_m": 0.03449210108203497,
+      "persistent": true
+    },
+    {
+      "coordinate_m": 1.2262113765792928,
+      "support_points": 982,
+      "vertical_span_m": 2.0246755106677243,
+      "tangent_span_m": 7.921935030639954,
+      "occupied_cells": 79,
+      "residual_rmse_m": 0.04606114334719278,
+      "persistent": true
+    },
+    {
+      "coordinate_m": 2.02621137657929,
+      "support_points": 5090,
+      "vertical_span_m": 1.8805805683664871,
+      "tangent_span_m": 4.024184212865671,
+      "occupied_cells": 169,
+      "residual_rmse_m": 0.03890719148253446,
+      "persistent": true
+    },
+    {
+      "coordinate_m": 2.326211376579289,
+      "support_points": 8202,
+      "vertical_span_m": 1.2846443593676666,
+      "tangent_span_m": 3.4441269249991713,
+      "occupied_cells": 199,
+      "residual_rmse_m": 0.03747053170425875,
+      "persistent": false
+    }
+  ],
+  "y_plane_candidates": [
+    {
+      "coordinate_m": -5.779183911254384,
+      "support_points": 1025,
+      "vertical_span_m": 1.7440081279351531,
+      "tangent_span_m": 0.41770647768708336,
+      "occupied_cells": 49,
+      "residual_rmse_m": 0.03840103861210454,
+      "persistent": false
+    },
+    {
+      "coordinate_m": -3.1791839112543934,
+      "support_points": 13644,
+      "vertical_span_m": 1.9467370992557522,
+      "tangent_span_m": 3.6405086118220247,
+      "occupied_cells": 311,
+      "residual_rmse_m": 0.03291761273359299,
+      "persistent": true
+    },
+    {
+      "coordinate_m": -2.6291839112543953,
+      "support_points": 1033,
+      "vertical_span_m": 1.4808734649083304,
+      "tangent_span_m": 2.5000180103326293,
+      "occupied_cells": 63,
+      "residual_rmse_m": 0.02698981076943132,
+      "persistent": false
+    },
+    {
+      "coordinate_m": -1.9791839112543976,
+      "support_points": 4022,
+      "vertical_span_m": 1.7418916399608944,
+      "tangent_span_m": 4.356018134121561,
+      "occupied_cells": 112,
+      "residual_rmse_m": 0.0513337619056101,
+      "persistent": true
+    },
+    {
+      "coordinate_m": -1.0791839112544008,
+      "support_points": 464,
+      "vertical_span_m": 0.960805669317089,
+      "tangent_span_m": 4.143069380777671,
+      "occupied_cells": 24,
+      "residual_rmse_m": 0.03139114076173548,
+      "persistent": false
+    },
+    {
+      "coordinate_m": 0.020816088745595263,
+      "support_points": 551,
+      "vertical_span_m": 1.5353088494579135,
+      "tangent_span_m": 2.2603138791273008,
+      "occupied_cells": 37,
+      "residual_rmse_m": 0.03607697333772089,
+      "persistent": true
+    },
+    {
+      "coordinate_m": 1.52081608874559,
+      "support_points": 893,
+      "vertical_span_m": 0.5292037565902873,
+      "tangent_span_m": 4.302520037697374,
+      "occupied_cells": 79,
+      "residual_rmse_m": 0.0437320604288017,
+      "persistent": false
+    },
+    {
+      "coordinate_m": 2.420816088745587,
+      "support_points": 14439,
+      "vertical_span_m": 1.9015955201942223,
+      "tangent_span_m": 5.862674101481325,
+      "occupied_cells": 373,
+      "residual_rmse_m": 0.03313232082218212,
+      "persistent": true
+    },
+    {
+      "coordinate_m": 2.8708160887455856,
+      "support_points": 2370,
+      "vertical_span_m": 0.7600724714505815,
+      "tangent_span_m": 1.0010072070147833,
+      "occupied_cells": 59,
+      "residual_rmse_m": 0.04552567979964819,
+      "persistent": false
+    }
+  ],
+  "candidate_envelope": {
+    "x_min_m": -2.0737886234206955,
+    "x_max_m": 2.02621137657929,
+    "y_min_m": -3.1791839112543934,
+    "y_max_m": 2.420816088745587,
+    "width_m": 4.099999999999985,
+    "length_m": 5.59999999999998,
+    "area_m2": 22.959999999999837,
+    "floor_support_fraction": 0.421602787456449
+  },
+  "wall_scores": {
+    "x_min": {
+      "support_points": 7364,
+      "tangent_span_m": 3.8587318994807727,
+      "vertical_span_m": 2.143455191533146,
+      "tangent_coverage": 0.4473684210526316,
+      "vertical_coverage": 0.8888888888888888,
+      "passes": true
+    },
+    "x_max": {
+      "support_points": 5020,
+      "tangent_span_m": 3.540170143896935,
+      "vertical_span_m": 1.8629930878911298,
+      "tangent_coverage": 0.21052631578947367,
+      "vertical_coverage": 0.7222222222222222,
+      "passes": false
+    },
+    "y_min": {
+      "support_points": 12886,
+      "tangent_span_m": 3.5627530134908962,
+      "vertical_span_m": 1.8770021550250697,
+      "tangent_coverage": 0.7857142857142857,
+      "vertical_coverage": 0.8333333333333334,
+      "passes": true
+    },
+    "y_max": {
+      "support_points": 10803,
+      "tangent_span_m": 3.5899679086676377,
+      "vertical_span_m": 1.9107123672087885,
+      "tangent_coverage": 0.9285714285714286,
+      "vertical_coverage": 0.8888888888888888,
+      "passes": true
+    }
+  },
+  "thresholds": {
+    "minimum_opposing_plane_separation_m": 2.0,
+    "minimum_wall_tangent_coverage": 0.35,
+    "minimum_wall_vertical_coverage": 0.35,
+    "minimum_floor_envelope_coverage": 0.15
+  },
+  "decision_policy": {
+    "minimum_manhattan_concentration": 0.2,
+    "minimum_strong_wall_count": 3,
+    "minimum_weak_wall_support_points": 1000,
+    "minimum_weak_wall_vertical_span_m": 1.5,
+    "minimum_weak_wall_tangent_coverage": 0.15,
+    "minimum_weak_wall_vertical_coverage": 0.5,
+    "minimum_weak_wall_relative_tangent_span": 0.3,
+    "strong_walls": [
+      "x_min",
+      "y_min",
+      "y_max"
+    ],
+    "weak_but_supported_walls": [
+      "x_max"
+    ],
+    "unsupported_walls": [],
+    "wall_support_class": {
+      "x_min": "strong",
+      "x_max": "weak_but_supported",
+      "y_min": "strong",
+      "y_max": "strong"
+    }
+  },
+  "outputs": {
+    "topdown": "/workspace/interior-slam/results/tum_fr1_room_baseline/structure_coverage_positive_control_fullmesh_envelope_confidence/room_structure_coverage.png",
+    "histograms": "/workspace/interior-slam/results/tum_fr1_room_baseline/structure_coverage_positive_control_fullmesh_envelope_confidence/room_plane_histograms.png"
+  }
+}

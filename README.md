@@ -7,6 +7,16 @@ These projects emphasize hands-on system design and implementation. Each folder 
 ## Projects
 
 
+### [Learning-Guided Dense SLAM for Structured Interior Reconstruction](learning-guided-interior-slam)
+
+A metric and uncertainty-aware interior reconstruction pipeline extending MASt3R-SLAM with RGB-D scale anchoring, TSDF fusion, Manhattan-structure recovery, multi-view opening validation, and selective structural abstention.
+
+**Topics:** Dense SLAM · RGB-D odometry · Metric scale · TSDF fusion · Manhattan structure · Interior reconstruction · Uncertainty and abstention
+
+**Status:** Working TUM Freiburg1 Room/Desk prototype. Ground-truth-free RGB-D scale anchoring reduced repeated TSDF surface RMSE from 4.405 cm to 2.106 cm on Desk, while the unchanged structural-confidence policy accepted Room and abstained on the partial Desk sequence. Dense evaluation reuses the same RGB-D observations and is not independent scan evaluation.
+
+
+
 ### [Hybrid Exterior Reconstruction](exterior-hybrid-reconstruction)
 
 A hybrid outdoor 3D reconstruction pipeline combining VGGT feed-forward predictions, classical bundle adjustment, dense depth reconstruction, and adaptive multiview consistency filtering.

@@ -1,0 +1,38 @@
+{
+  "project": "Learning-Guided Dense SLAM for Structured Interior Reconstruction",
+  "mast3r_slam_commit": "e6f4e3d474fad0e11f561482012be864ba8c3f17",
+  "room": {
+    "dimensions_m": {
+      "width": 5.599493861481465,
+      "length": 4.346974635356695,
+      "height": 2.897845470496023,
+      "floor_area_m2": 24.34085778669544
+    },
+    "probable_opening_count": 1,
+    "confirmed_openings": 0,
+    "structural_decision": "FULL_3D_ROOM_ENVELOPE_SUPPORTED"
+  },
+  "desk_scale_anchor": {
+    "rgbd_metric_scale": 1.0990540747163275,
+    "groundtruth_reference_scale": 1.113228945276162,
+    "absolute_scale_difference": 0.014174870559834352,
+    "robust_inlier_pairs": 21,
+    "bootstrap_95_percent_interval": [
+      1.0799719414557059,
+      1.1212740675749364
+    ]
+  },
+  "desk_tsdf_ablation": {
+    "se3_rmse_cm": 4.404889577128448,
+    "se3_rmse_std_cm": 0.014688676379455605,
+    "rgbd_scale_rmse_cm": 2.1056611782967813,
+    "rgbd_scale_rmse_std_cm": 0.008473544478565725,
+    "rmse_reduction_percent": 52.197185844793324,
+    "rgbd_surface_within_2cm_percent": 71.0381
+  },
+  "selective_structure": {
+    "room_decision": "FULL_3D_ROOM_ENVELOPE_SUPPORTED",
+    "desk_decision": "ABSTAIN_INSUFFICIENT_ROOM_COVERAGE"
+  },
+  "evaluation_caveat": "TSDF comparisons fuse the same RGB-D observations using different camera-pose variants. They isolate pose and scale effects but are not comparisons against an independent laser-scanned surface."
+}

@@ -1,0 +1,198 @@
+{
+  "method": "Project perimeter-wall cells into aligned estimated-pose RGB-D frames and compare expected wall depth against measured depth. Repeated farther-depth measurements provide free-space evidence; closer depths indicate occlusion.",
+  "association_count": 51,
+  "maximum_rgb_time_difference_s": 0.0,
+  "maximum_depth_time_difference_s": 0.016319990158081055,
+  "pose_frame": "Estimated MASt3R-SLAM poses rigidly aligned using the same estimated_to_gt SE3 transform used for TSDF reconstruction.",
+  "parameters": {
+    "tangent_resolution_m": 0.05,
+    "height_resolution_m": 0.05,
+    "minimum_incidence_cosine": 0.25881904510252074,
+    "wall_match_tolerance_m": 0.12,
+    "free_space_margin_m": 0.18,
+    "occlusion_margin_m": 0.18,
+    "minimum_valid_observations": 2,
+    "minimum_wall_observations": 2,
+    "minimum_free_observations": 3,
+    "minimum_free_ratio": 0.7,
+    "minimum_wall_ratio": 0.6
+  },
+  "wall_results": {
+    "x_min": {
+      "grid_shape": [
+        58,
+        87
+      ],
+      "cell_count": 5046,
+      "projected_cell_fraction": 0.9240982956797463,
+      "valid_depth_cell_fraction": 0.8275862068965517,
+      "mean_projected_frames_per_cell": 2.6789536266349585,
+      "mean_valid_depth_frames_per_cell": 2.095917558462148,
+      "state_counts": {
+        "unobserved": 2178,
+        "wall observed": 1278,
+        "free space": 20,
+        "occluded": 1272,
+        "uncertain": 298
+      },
+      "state_fractions": {
+        "unobserved": 0.43162901307966706,
+        "wall observed": 0.25326991676575505,
+        "free space": 0.003963535473642489,
+        "occluded": 0.2520808561236623,
+        "uncertain": 0.05905667855727309
+      },
+      "validated_regions": [],
+      "definition": {
+        "plane_coordinate_m": -3.1684802723165397,
+        "tangent_min_m": -2.2877352912351707,
+        "tangent_max_m": 2.0592393441215244
+      }
+    },
+    "x_max": {
+      "grid_shape": [
+        58,
+        87
+      ],
+      "cell_count": 5046,
+      "projected_cell_fraction": 0.9910820451843044,
+      "valid_depth_cell_fraction": 0.7958779231074118,
+      "mean_projected_frames_per_cell": 8.763376932223544,
+      "mean_valid_depth_frames_per_cell": 5.881886642885454,
+      "state_counts": {
+        "unobserved": 1721,
+        "wall observed": 1709,
+        "free space": 77,
+        "occluded": 1197,
+        "uncertain": 342
+      },
+      "state_fractions": {
+        "unobserved": 0.3410622275069362,
+        "wall observed": 0.3386841062227507,
+        "free space": 0.015259611573523584,
+        "occluded": 0.23721759809750298,
+        "uncertain": 0.06777645659928656
+      },
+      "validated_regions": [
+        {
+          "classification": "validated_free_space_region",
+          "minimum_column": 34,
+          "maximum_column": 36,
+          "minimum_row": 36,
+          "maximum_row": 45,
+          "width_m": 0.15000000000000002,
+          "height_m": 0.5,
+          "bottom_z_m": 1.7727242503665468,
+          "top_z_m": 2.272724250366547,
+          "cell_count": 24,
+          "mean_free_ratio": 1.0,
+          "mean_free_observations": 2.9583333333333335,
+          "confidence": 0.7395833333333334
+        },
+        {
+          "classification": "validated_free_space_region",
+          "minimum_column": 44,
+          "maximum_column": 53,
+          "minimum_row": 37,
+          "maximum_row": 44,
+          "width_m": 0.5,
+          "height_m": 0.4,
+          "bottom_z_m": 1.8227242503665468,
+          "top_z_m": 2.2227242503665465,
+          "cell_count": 61,
+          "mean_free_ratio": 1.0,
+          "mean_free_observations": 2.80327868852459,
+          "confidence": 0.7008196721311475
+        }
+      ],
+      "definition": {
+        "plane_coordinate_m": 2.4310135891649245,
+        "tangent_min_m": -2.2877352912351707,
+        "tangent_max_m": 2.0592393441215244
+      }
+    },
+    "y_min": {
+      "grid_shape": [
+        58,
+        112
+      ],
+      "cell_count": 6496,
+      "projected_cell_fraction": 0.6265394088669951,
+      "valid_depth_cell_fraction": 0.5686576354679803,
+      "mean_projected_frames_per_cell": 1.967210591133005,
+      "mean_valid_depth_frames_per_cell": 1.4816810344827587,
+      "state_counts": {
+        "unobserved": 3680,
+        "wall observed": 821,
+        "free space": 127,
+        "occluded": 1282,
+        "uncertain": 586
+      },
+      "state_fractions": {
+        "unobserved": 0.5665024630541872,
+        "wall observed": 0.12638546798029557,
+        "free space": 0.01955049261083744,
+        "occluded": 0.19735221674876846,
+        "uncertain": 0.09020935960591132
+      },
+      "validated_regions": [
+        {
+          "classification": "validated_window_candidate",
+          "minimum_column": 89,
+          "maximum_column": 104,
+          "minimum_row": 13,
+          "maximum_row": 27,
+          "width_m": 0.8,
+          "height_m": 0.75,
+          "bottom_z_m": 0.6227242503665468,
+          "top_z_m": 1.3727242503665469,
+          "cell_count": 131,
+          "mean_free_ratio": 0.9833333333333333,
+          "mean_free_observations": 3.3206106870229006,
+          "confidence": 0.8163167938931297
+        }
+      ],
+      "definition": {
+        "plane_coordinate_m": -2.2877352912351707,
+        "tangent_min_m": -3.1684802723165397,
+        "tangent_max_m": 2.4310135891649245
+      }
+    },
+    "y_max": {
+      "grid_shape": [
+        58,
+        112
+      ],
+      "cell_count": 6496,
+      "projected_cell_fraction": 0.8916256157635468,
+      "valid_depth_cell_fraction": 0.8123460591133005,
+      "mean_projected_frames_per_cell": 3.0029248768472905,
+      "mean_valid_depth_frames_per_cell": 2.4467364532019706,
+      "state_counts": {
+        "unobserved": 2667,
+        "wall observed": 1035,
+        "free space": 1,
+        "occluded": 2372,
+        "uncertain": 421
+      },
+      "state_fractions": {
+        "unobserved": 0.4105603448275862,
+        "wall observed": 0.15932881773399016,
+        "free space": 0.0001539408866995074,
+        "occluded": 0.36514778325123154,
+        "uncertain": 0.0648091133004926
+      },
+      "validated_regions": [],
+      "definition": {
+        "plane_coordinate_m": 2.0592393441215244,
+        "tangent_min_m": -3.1684802723165397,
+        "tangent_max_m": 2.4310135891649245
+      }
+    }
+  },
+  "validated_region_count": 3,
+  "outputs": {
+    "validated_floorplan": "/workspace/interior-slam/results/tum_fr1_room_baseline/tsdf/final/structure_baseline/visibility_openings/validated_openings_floorplan.png"
+  },
+  "warning": "Validated free-space regions are geometric hypotheses. Door/window semantics still require shape checks or RGB evidence."
+}
