@@ -1,0 +1,5 @@
+motion_regime,quality,recommendation,num_poses,max_relative_rotation_deg,mean_relative_rotation_deg,translation_baseline_mm,rotation_axis_diversity_ratio,rotation_design_rank,expected_rotation_design_rank,smallest_informative_singular_value
+diverse,GOOD,Motion has broad multi-axis rotational excitation; proceed with solver comparison and residual validation.,25,168.43318503386644,91.36341474746418,882.0260386757817,0.7544857271592612,8,8,5.2316296434842755
+single_axis,POOR,Add large rotations about at least two additional axes; the current motion does not uniquely constrain rotation.,25,172.31023864135344,86.11179307525522,841.8866802660024,0.0,6,8,6.729533570352893
+small_rotation,POOR,Increase rotational excitation; the current angular motion is too small relative to expected measurement noise.,25,2.7806674353587972,1.4904867240146633,146.40370031372458,0.7463182110179343,8,8,0.10512081387447406
+translation_only,POOR,Add large rotations about at least two additional axes; the current motion does not uniquely constrain rotation.,25,0.0,0.0,848.6426466645117,0.0,0,8,0.0

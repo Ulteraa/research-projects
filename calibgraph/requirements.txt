@@ -1,0 +1,7 @@
+numpy
+scipy
+opencv-contrib-python==4.13.0.92
+matplotlib
+pandas
+PyYAML
+pytest

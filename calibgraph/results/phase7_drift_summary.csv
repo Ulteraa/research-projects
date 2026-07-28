@@ -1,0 +1,5 @@
+scenario,trials,drift_translation_mm,drift_rotation_deg,detection_rate,median_detection_delay_frames,localization_accuracy,false_alarm_rate
+none,20,0.0,0.0,,,,0.0
+small,20,1.0,0.2,0.55,11.0,0.55,0.0
+medium,20,3.0,0.5,1.0,0.0,0.95,0.0
+large,20,8.0,1.5,1.0,0.0,1.0,0.0

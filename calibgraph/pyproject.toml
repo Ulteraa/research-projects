@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calibgraph"
+version = "0.9.0"
+description = "Robust multi-camera hand-eye calibration research prototype"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "opencv-contrib-python>=4.13,<5",
+]
+
+[tool.setuptools.packages.find]
+include = ["calibgraph*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

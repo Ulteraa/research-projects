@@ -7,6 +7,22 @@ These projects emphasize hands-on system design and implementation. Each folder 
 ## Projects
 
 
+### [CalibGraph — Robust Multi-Camera Calibration for Articulated Robots](calibgraph)
+
+A CPU-only synthetic systems prototype for cameras mounted on moving robot
+links. It combines classical hand–eye calibration, motion-observability
+analysis, articulated multi-camera modeling, robust joint refinement, online
+mount-drift monitoring, per-camera time synchronization, and held-out
+robot-task validation.
+
+**Topics:** Hand–eye calibration · Multi-camera robotics · SE(3) · Robust optimization · Observability · Time synchronization · Calibration health monitoring
+
+**Status:** Reproducible synthetic prototype with 34 automated tests. Joint
+Huber refinement reduced held-out grasp error from 2.19 mm to
+0.88 mm under 8% outliers, while time-aware calibration reduced it
+from 19.78 mm to 2.80 mm under camera–robot timestamp mismatch.
+No real-robot validation is claimed.
+
 ### [Learning-Guided Dense SLAM for Structured Interior Reconstruction](learning-guided-interior-slam)
 
 A metric and uncertainty-aware interior reconstruction pipeline extending MASt3R-SLAM with RGB-D scale anchoring, TSDF fusion, Manhattan-structure recovery, multi-view opening validation, and selective structural abstention.
