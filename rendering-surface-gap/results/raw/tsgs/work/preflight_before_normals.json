@@ -1,0 +1,36 @@
+{
+  "schema": "tsgs.scan24.preflight.v1",
+  "status": "pass",
+  "scene": "/workspace/tsgs_v13_scan24/data/scan24",
+  "images": 49,
+  "resolution": [
+    1600,
+    1200
+  ],
+  "training_resolution": [
+    800,
+    600
+  ],
+  "train_views": 42,
+  "test_views": 7,
+  "test_names": [
+    "000000",
+    "000008",
+    "000016",
+    "000024",
+    "000032",
+    "000040",
+    "000048"
+  ],
+  "colmap_format": "text",
+  "projection_relative_error_max": 1.4123594153884393e-07,
+  "projection_relative_error_median": 7.365099777498956e-08,
+  "scale_mat_0_singular_values": [
+    231.06820678710938,
+    231.06820678710938,
+    231.06820678710938
+  ],
+  "normals_found": 49,
+  "normals_required": false,
+  "dtu_gt": "/workspace/data/DTU/dtu_eval"
+}

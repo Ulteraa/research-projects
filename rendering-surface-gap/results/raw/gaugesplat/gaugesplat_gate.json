@@ -1,0 +1,47 @@
+{
+  "checks": {
+    "accepted_compensated_block": true,
+    "finite": true,
+    "foreground_psnr": true,
+    "geometry": false,
+    "lpips": true,
+    "no_heldout_training_leak": true,
+    "psnr": true,
+    "ssim": true,
+    "training_gate": true,
+    "transport_target_descent": true
+  },
+  "claim_allowed": "none",
+  "decision": "reject",
+  "geometry": {
+    "baseline_chamfer": 3.286727867144559,
+    "candidate_chamfer": 3.281277653821921,
+    "relative_improvement": 0.0016582490376281095
+  },
+  "images": {
+    "baseline_foreground_psnr": 21.619516932080824,
+    "baseline_lpips": 0.23723351955413818,
+    "baseline_psnr": 20.25764274597168,
+    "baseline_ssim": 0.7209587097167969,
+    "candidate_foreground_psnr": 21.618500012431586,
+    "candidate_lpips": 0.2371930032968521,
+    "candidate_psnr": 20.257080078125,
+    "candidate_ssim": 0.720926821231842,
+    "foreground_psnr_drop": 0.0010169196492384458,
+    "lpips_increase": -4.051625728607178e-05,
+    "psnr_drop": 0.0005626678466796875,
+    "ssim_drop": 3.1888484954833984e-05
+  },
+  "paper_superiority_claim_allowed": false,
+  "paper_superiority_claim_note": "A scan-24 pilot can justify multi-scene evaluation, not a benchmark-wide superiority claim.",
+  "passed": false,
+  "schema": "gaugesplat.pgsr_heldout_gate.v1",
+  "thresholds": {
+    "maximum_foreground_psnr_drop": 0.1,
+    "maximum_lpips_increase": 0.01,
+    "maximum_psnr_drop": 0.1,
+    "maximum_ssim_drop": 0.005,
+    "minimum_geometry_improvement": 0.02,
+    "strong_geometry_improvement": 0.1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "torch": "2.5.1+cu124",
+  "torchvision": "0.20.1+cu124",
+  "numpy": "1.26.4",
+  "opencv": "4.11.0",
+  "open3d": "0.18.0",
+  "gpu": "NVIDIA RTX A6000",
+  "gpu_memory_gib": 47.53,
+  "tsgs_commit": "73d3f984de0e9b47012b535f303248b0164da17c",
+  "lotus2_commit": "b05bf90ce37a68c1cdddcca27542659140dc17a2"
+}

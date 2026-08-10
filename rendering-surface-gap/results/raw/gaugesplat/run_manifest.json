@@ -1,0 +1,6 @@
+{
+  "schema": "gaugesplat.run_manifest.v1",
+  "python": "3.11.10 (main, Sep  7 2024, 18:35:41) [GCC 11.4.0]",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.35",
+  "cuda_visible_devices": null
+}

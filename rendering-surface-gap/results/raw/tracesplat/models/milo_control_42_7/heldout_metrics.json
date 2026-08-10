@@ -1,0 +1,76 @@
+{
+  "schema": "tracesplat.heldout_metrics.v1",
+  "views": 7,
+  "iteration": 30000,
+  "aggregate": {
+    "SSIM": 0.7382783464023045,
+    "PSNR": 20.564980915614537,
+    "LPIPS": 0.21575761905738286,
+    "foreground_psnr": 20.78726573422315
+  },
+  "per_view": [
+    {
+      "render": "00000.png",
+      "mask": "000000.png",
+      "SSIM": 0.6115758419036865,
+      "PSNR": 17.917600631713867,
+      "LPIPS": 0.26865237951278687,
+      "foreground_psnr": 16.020197637145813,
+      "foreground_pixels": 271544
+    },
+    {
+      "render": "00001.png",
+      "mask": "000008.png",
+      "SSIM": 0.7140592336654663,
+      "PSNR": 21.28386688232422,
+      "LPIPS": 0.21075482666492462,
+      "foreground_psnr": 22.183874848981517,
+      "foreground_pixels": 330579
+    },
+    {
+      "render": "00002.png",
+      "mask": "000016.png",
+      "SSIM": 0.7171419262886047,
+      "PSNR": 20.639240264892578,
+      "LPIPS": 0.2026408612728119,
+      "foreground_psnr": 22.90800382971685,
+      "foreground_pixels": 327830
+    },
+    {
+      "render": "00003.png",
+      "mask": "000024.png",
+      "SSIM": 0.7101671695709229,
+      "PSNR": 23.931068420410156,
+      "LPIPS": 0.1849149465560913,
+      "foreground_psnr": 24.36935654381836,
+      "foreground_pixels": 398797
+    },
+    {
+      "render": "00004.png",
+      "mask": "000032.png",
+      "SSIM": 0.8039166927337646,
+      "PSNR": 25.6752872467041,
+      "LPIPS": 0.15233883261680603,
+      "foreground_psnr": 26.040372411766917,
+      "foreground_pixels": 395536
+    },
+    {
+      "render": "00005.png",
+      "mask": "000040.png",
+      "SSIM": 0.796697735786438,
+      "PSNR": 18.12063980102539,
+      "LPIPS": 0.23877564072608948,
+      "foreground_psnr": 16.01358578366161,
+      "foreground_pixels": 283567
+    },
+    {
+      "render": "00006.png",
+      "mask": "000048.png",
+      "SSIM": 0.8143898248672485,
+      "PSNR": 16.387163162231445,
+      "LPIPS": 0.2522258460521698,
+      "foreground_psnr": 17.975469084470983,
+      "foreground_pixels": 262869
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "finite": true,
+    "foreground_psnr": false,
+    "image_lpips": true,
+    "image_psnr": true,
+    "image_ssim": false,
+    "transport_energy_decreased": true
+  },
+  "decision": "reject",
+  "geometry": {
+    "baseline_chamfer": 3.286727867144559,
+    "candidate_chamfer": 3.110619080378557,
+    "continuation_threshold": 0.02,
+    "final_threshold": 0.1,
+    "relative_improvement": 0.05358179742425755
+  },
+  "images": {
+    "baseline_foreground_psnr": 21.619516932080824,
+    "baseline_psnr": 20.25764274597168,
+    "candidate_foreground_psnr": 21.293399863512708,
+    "candidate_psnr": 20.07136344909668,
+    "foreground_psnr_drop": 0.3261170685681165,
+    "lpips_increase": 0.015424072742462158,
+    "psnr_drop": 0.186279296875,
+    "ssim_drop": 0.01551520824432373
+  },
+  "schema": "rayot.pgsr_gate.v1"
+}

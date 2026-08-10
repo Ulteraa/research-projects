@@ -1,0 +1,33 @@
+{
+  "dtu_gt": "/workspace/data/DTU/dtu_eval",
+  "evidence": "/workspace/data/DTU/dtu_scan24/tracks/mvroma_tracks_surface_v071.npz",
+  "evidence_metadata": {
+    "calibrated_filter": true,
+    "confidence_threshold": 0.5,
+    "geometry_gate": "/workspace/data/DTU/dtu_scan24/tracks/mvroma_track_surface_gate_v071.json",
+    "observations": 368834,
+    "prediction_files": 49,
+    "schema": "rootsplat.tracks.v1",
+    "sigma01_norm_median": 0.0010289547150023283,
+    "source": "MV-RoMa",
+    "stride": 8,
+    "track_length_mean": 3.9685173230040887,
+    "tracks": 92940,
+    "train_only": true
+  },
+  "evidence_points": 92940,
+  "heldout": [
+    "000000",
+    "000008",
+    "000016",
+    "000024",
+    "000032",
+    "000040",
+    "000048"
+  ],
+  "scene": "/workspace/tracesplat_milo_dtu24_v001/data/scan24",
+  "schema": "tracesplat.preflight.v1",
+  "status": "pass",
+  "test_views": 7,
+  "train_views": 42
+}

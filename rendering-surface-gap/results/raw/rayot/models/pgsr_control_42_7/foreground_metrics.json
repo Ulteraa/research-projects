@@ -1,0 +1,42 @@
+{
+  "schema": "rayot.foreground_metrics.v1",
+  "views": 7,
+  "foreground_psnr": 21.619516932080824,
+  "per_view": [
+    {
+      "name": "000000.png",
+      "foreground_psnr": 15.251753929362255,
+      "pixels": 271544
+    },
+    {
+      "name": "000008.png",
+      "foreground_psnr": 21.56268744013397,
+      "pixels": 330579
+    },
+    {
+      "name": "000016.png",
+      "foreground_psnr": 23.160566428663603,
+      "pixels": 327830
+    },
+    {
+      "name": "000024.png",
+      "foreground_psnr": 23.01692401650419,
+      "pixels": 398797
+    },
+    {
+      "name": "000032.png",
+      "foreground_psnr": 23.21922882105005,
+      "pixels": 395536
+    },
+    {
+      "name": "000040.png",
+      "foreground_psnr": 22.720434683681088,
+      "pixels": 283567
+    },
+    {
+      "name": "000048.png",
+      "foreground_psnr": 22.405023205170647,
+      "pixels": 262869
+    }
+  ]
+}

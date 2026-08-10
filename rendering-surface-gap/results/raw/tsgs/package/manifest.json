@@ -1,0 +1,15 @@
+{
+  "schema": "tsgs.scan24.reproduction.v1",
+  "status": "baseline_only_no_novelty_claim",
+  "tsgs_repository": "https://github.com/longxiang-ai/TSGS",
+  "tsgs_commit": "73d3f984de0e9b47012b535f303248b0164da17c",
+  "lotus2_repository": "https://github.com/EnVision-Research/Lotus-2",
+  "lotus2_commit": "b05bf90ce37a68c1cdddcca27542659140dc17a2",
+  "scan_id": 24,
+  "seed": 42,
+  "resolution": 2,
+  "iterations": 30000,
+  "author_reported_scan24_chamfer": 0.391,
+  "reproduction_absolute_tolerance": 0.08,
+  "license_note": "TSGS and PGSR permit educational, research, and non-profit use; derivative modifications must be open-source and commercial use is prohibited without permission."
+}

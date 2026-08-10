@@ -1,0 +1,9 @@
+{
+  "baseline_model": "/workspace/rayot_pgsr_dtu24_v002/models/pgsr_control_42_7",
+  "candidate_model": "/workspace/gaugesplat_pgsr_dtu24_v001/models/gaugesplat_candidate_42_7",
+  "candidate_ply": "/workspace/gaugesplat_pgsr_dtu24_v001/refinement/gaugesplat_candidate.ply",
+  "candidate_ply_sha256": "0144a3264a1431c9e0e367df649263d396365f190ce290f78d613e44a70a1cee",
+  "iteration": 30000,
+  "schema": "gaugesplat.pgsr_candidate_model.v1",
+  "training_report": "/workspace/gaugesplat_pgsr_dtu24_v001/refinement/gaugesplat_training.json"
+}

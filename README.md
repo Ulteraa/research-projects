@@ -6,6 +6,14 @@ These projects emphasize hands-on system design and implementation. Each folder 
 
 ## Projects
 
+### [The Rendering–Surface Gap in Gaussian Splatting](rendering-surface-gap)
+
+An audited DTU Scan 24 study of why high-quality Gaussian-splatting renders do not necessarily imply accurate extracted surfaces. It compares published PGSR, MILo, and TSGS baselines with controlled RayOT, GaugeSplat, TraceSplat, VP0, and first-surface diagnostics, using separate image and geometry acceptance gates.
+
+**Topics:** Gaussian Splatting · Novel-view synthesis · Surface reconstruction · DTU · Chamfer distance · Controlled negative results
+
+**Status:** Reproducible result-level artifact with exact metric snapshot, raw evaluator reports, validation code, report source, and representative renders. A local TSGS reproduction is the strongest renderer in the single-scene study but fails its official geometry-reproduction target; MILo is the strongest measured third-party geometry control, and none of the trained project interventions passes both acceptance gates. No benchmark-wide or state-of-the-art claim is made.
+
 
 ### [CalibGraph — Robust Multi-Camera Calibration for Articulated Robots](calibgraph)
 

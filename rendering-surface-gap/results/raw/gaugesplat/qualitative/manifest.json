@@ -1,0 +1,21 @@
+{
+  "schema": "gaugesplat.qualitative.v1",
+  "selection": "first_middle_last",
+  "views": [
+    {
+      "source_name": "000000.png",
+      "panel": "comparison_000000.png",
+      "candidate": "gaugesplat_000000.png"
+    },
+    {
+      "source_name": "000024.png",
+      "panel": "comparison_000024.png",
+      "candidate": "gaugesplat_000024.png"
+    },
+    {
+      "source_name": "000048.png",
+      "panel": "comparison_000048.png",
+      "candidate": "gaugesplat_000048.png"
+    }
+  ]
+}

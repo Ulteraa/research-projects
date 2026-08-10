@@ -1,0 +1,266 @@
+{
+  "audit_graph": {
+    "area_scale": 0.06485947221517563,
+    "c0": 0.6283185307179586,
+    "c2": 0.05235987755982988,
+    "h_multiplier": 1.5,
+    "k": 16,
+    "maximum_h": 1.1874730587005615,
+    "median_h": 0.012091850861907005,
+    "minimum_h": 0.0003180317289661616,
+    "n": 528731,
+    "normal_power": 4.0,
+    "normal_sigma": 0.35,
+    "raw_m0_median": 9.687382698059082,
+    "schema": "rootsplat.vp0_frozen_graph.v1",
+    "self_neighbor_fraction": 1.0
+  },
+  "audit_graph_path": "/workspace/rootsplat_vp0_dtu24_pilot_v012/preflight/audit_graph.npz",
+  "audit_node_ids_path": "/workspace/rootsplat_vp0_dtu24_pilot_v012/preflight/audit_node_ids.npy",
+  "baseline_audit": {
+    "chart_mean": 0.0047038765624165535,
+    "chart_median": 0.004076056182384491,
+    "chart_q90": 0.009036621078848839,
+    "grassmann_mean": 0.09819013625383377,
+    "grassmann_median": 0.0697314441204071,
+    "grassmann_q90": 0.21748538315296173,
+    "moment_log_mean": 1.7628651857376099,
+    "moment_mean": 3672.323486328125,
+    "moment_median": 1.6027644872665405,
+    "moment_q90": 100.38217163085938,
+    "moment_q95": 348.3731689453125,
+    "moment_q99": 5184.79052734375,
+    "nodes": 65536,
+    "prox_mean": 1.127773430198431e-08,
+    "prox_median": 0.0,
+    "prox_q90": 2.384185791015625e-07
+  },
+  "binding": {
+    "backend": "/workspace/external/2d-gaussian-splatting-v085",
+    "dataset": "/workspace/data/DTU/dtu_scan24/quality/official_2dgs_v085",
+    "iteration": 30000,
+    "output": "/workspace/rootsplat_vp0_dtu24_pilot_v012",
+    "run": "/workspace/rootsplat_v085_isolated.6FyLMx/rootsplat_fixed/runs/dtu24_official_2dgs_quality_v085",
+    "scene": "/workspace/data/DTU/dtu_scan24",
+    "venv": "/workspace/venvs/2dgs-v085"
+  },
+  "checksum_checks": {
+    "checkpoint": true,
+    "manifest": true,
+    "point_cloud": true
+  },
+  "checksums": {
+    "checkpoint": "4ca3f16fdd368f4ffe9ebd1988f296d55504db61719c5180b29ad69ee67802a4",
+    "manifest": "67a38f80d2b1719313bc675569f7471183ee754a62b12b366fb3050ccd97a0aa",
+    "point_cloud": "9e0f5a50e5d1e5306af0e9ca2b613ff73551fb765fcd0502e47f2bb99a59c364"
+  },
+  "commit_checks": {
+    "backend": true,
+    "rasterizer": true
+  },
+  "commits": {
+    "backend": "335ad612f2e783a4e57b9cbc4d1e167bd599fc98",
+    "rasterizer": "e0ed0207b3e0669960cfad70852200a4a5847f61"
+  },
+  "created_unix": 1786242436.7807918,
+  "dataset_protocol": {
+    "heldout_initializer_views": [],
+    "heldout_view_ids": [
+      0,
+      8,
+      16,
+      24,
+      32,
+      40,
+      48
+    ],
+    "train_view_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ]
+  },
+  "exact_render_reproduction": {
+    "aggregate": {
+      "foreground_psnr": 22.18254507096663,
+      "psnr": 20.837194943027413,
+      "saved_render_max_abs_max": 0.003921562805771828,
+      "saved_render_mean_abs_max": 0.0019444648642092943,
+      "ssim": 0.7214513506208148
+    },
+    "max_abs_threshold": 0.00794313725490196,
+    "mean_abs_threshold": 0.00206078431372549,
+    "passed": true,
+    "per_view": [
+      {
+        "camera_name": "000000",
+        "foreground_psnr": 17.357761304865825,
+        "psnr": 19.64596722315948,
+        "saved_render_max_abs": 0.0039215534925460815,
+        "saved_render_mean_abs": 0.0017993198707699776,
+        "ssim": 0.6511388421058655,
+        "view_id": 0
+      },
+      {
+        "camera_name": "000008",
+        "foreground_psnr": 22.07780916319063,
+        "psnr": 19.970544101915877,
+        "saved_render_max_abs": 0.0039215534925460815,
+        "saved_render_mean_abs": 0.001823216793127358,
+        "ssim": 0.7059341073036194,
+        "view_id": 8
+      },
+      {
+        "camera_name": "000016",
+        "foreground_psnr": 22.98069983835714,
+        "psnr": 19.042739344612173,
+        "saved_render_max_abs": 0.0039215609431266785,
+        "saved_render_mean_abs": 0.0017449541483074427,
+        "ssim": 0.6872440576553345,
+        "view_id": 16
+      },
+      {
+        "camera_name": "000024",
+        "foreground_psnr": 23.708149739846927,
+        "psnr": 22.635752927894476,
+        "saved_render_max_abs": 0.0039215609431266785,
+        "saved_render_mean_abs": 0.0019159505609422922,
+        "ssim": 0.6669476628303528,
+        "view_id": 24
+      },
+      {
+        "camera_name": "000032",
+        "foreground_psnr": 25.398990355506697,
+        "psnr": 23.240891806858617,
+        "saved_render_max_abs": 0.003921562805771828,
+        "saved_render_mean_abs": 0.0019444648642092943,
+        "ssim": 0.7560986876487732,
+        "view_id": 32
+      },
+      {
+        "camera_name": "000040",
+        "foreground_psnr": 24.25436060513469,
+        "psnr": 25.27688075897546,
+        "saved_render_max_abs": 0.003921562805771828,
+        "saved_render_mean_abs": 0.0018796807853505015,
+        "ssim": 0.8058826327323914,
+        "view_id": 40
+      },
+      {
+        "camera_name": "000048",
+        "foreground_psnr": 19.5000444898645,
+        "psnr": 16.04758843777579,
+        "saved_render_max_abs": 0.003921562805771828,
+        "saved_render_mean_abs": 0.0019352376693859696,
+        "ssim": 0.7769134640693665,
+        "view_id": 48
+      }
+    ]
+  },
+  "failures": [],
+  "interpretation": "The legacy absolute quality gate is recorded but does not control VP-0. VP-0 starts from this exact renderer/checkpoint and uses relative preservation gates.",
+  "legacy_absolute_quality_gate": {
+    "aggregate": {
+      "foreground_psnr": 22.171332303968256,
+      "lpips": 0.30211034417152405,
+      "psnr": 20.828671370316613,
+      "ssim": 0.721067488193512
+    },
+    "failures": [
+      "test_psnr",
+      "test_ssim",
+      "test_lpips"
+    ],
+    "status": "fail"
+  },
+  "official_dtu_geometry": {
+    "evaluator": "/workspace/external/2d-gaussian-splatting-v085/scripts/eval_dtu/evaluate_single_scene.py",
+    "evaluator_exists": true,
+    "ground_truth_root_candidates": [],
+    "status": "missing_ground_truth_or_evaluator"
+  },
+  "package_version": "0.1.2",
+  "runtime": {
+    "cuda_runtime": "12.4",
+    "gpu": "NVIDIA RTX A6000",
+    "lpips": "unknown",
+    "open3d": "0.19.0",
+    "scipy": "1.17.1",
+    "torch": "2.4.1+cu124"
+  },
+  "schema": "rootsplat.vp0_preflight.v1",
+  "status": "pass",
+  "support_quality": {
+    "acceptance_aggregation": "audit moment_log_mean plus median chart/Grassmann; raw median moment defect must decrease",
+    "area_quantiles_before_global_calibration": {
+      "0.0": 1.4710069146896731e-16,
+      "0.001": 2.0120296539971605e-08,
+      "0.01": 1.5367893979600922e-07,
+      "0.5": 0.00011208204523427412,
+      "0.95": 0.004749719053506851,
+      "0.99": 0.029460955411195755,
+      "0.999": 0.33313363790512085,
+      "1.0": 75.24957275390625
+    },
+    "confidence_mass_quantiles": {
+      "0.0": 1.0002496242523193,
+      "0.001": 1.0907303094863892,
+      "0.01": 1.7262678146362305,
+      "0.5": 9.7890043258667,
+      "0.99": 15.999638557434082,
+      "1.0": 16.983713150024414
+    },
+    "h_quantiles": {
+      "0.0": 0.0003180317289661616,
+      "0.001": 0.0013853003038093448,
+      "0.01": 0.0027091766241937876,
+      "0.5": 0.012091850861907005,
+      "0.95": 0.038734130561351776,
+      "0.99": 0.06928735226392746,
+      "0.995": 0.08830682188272476,
+      "1.0": 1.1874730587005615
+    },
+    "heavy_tail_ratio_mean_over_median": 2291.243358274768,
+    "training_aggregation": "mean(log1p(per_node_moment_defect))"
+  },
+  "surfel_count": 528731
+}
