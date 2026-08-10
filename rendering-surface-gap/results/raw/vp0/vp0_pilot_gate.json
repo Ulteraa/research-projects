@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "first_order_native_descent_preserved": true,
+    "mean_heldout_foreground_psnr_drop_le_0.10_db": true,
+    "mean_heldout_psnr_drop_le_0.10_db": true,
+    "mean_heldout_ssim_drop_le_0.005": true,
+    "median_moment_reduction_ge_1_percent": false,
+    "native_appearance_immutable": true,
+    "rollback_fraction_le_60_percent": false,
+    "surface_multiplier_did_not_collapse": true,
+    "training_complete": true
+  },
+  "failures": [
+    "median_moment_reduction_ge_1_percent",
+    "rollback_fraction_le_60_percent"
+  ],
+  "final_surface_lambda": 0.0028137720250000003,
+  "final_trust_scale": 0.12155263058531246,
+  "heldout_mean_drops": {
+    "foreground_psnr": -0.011122855924615038,
+    "psnr": 0.006196953234205438,
+    "ssim": -0.0005418487957544738
+  },
+  "interpretation": "A full 3000-step run is authorized only when every preregistered pilot check passes.",
+  "median_moment_defect_reduction": 0.00077746588071681,
+  "minimum_block_mean_native_descent_fraction": 1.0000000023841857,
+  "package_version": "0.1.2",
+  "rollback_fraction": 0.6363636363636364,
+  "schema": "rootsplat.vp0_pilot_gate.v1",
+  "status": "do_not_scale"
+}

@@ -1,0 +1,14 @@
+{
+  "active_fraction": 0.39534667134284973,
+  "checks": {
+    "active_fraction": true,
+    "candidate_exists": true,
+    "coordinate_agreement": true,
+    "transport_energy_decreased": true,
+    "trust_radius_respected": true
+  },
+  "evidence_distance_median": 0.008080927655100822,
+  "failures": [],
+  "schema": "rayot.projection_preflight.v1",
+  "status": "pass"
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "tsgs.scan24.stage.v1",
+  "source": "/workspace/data/DTU/dtu_scan24/quality/rayot_pgsr_input_v2",
+  "scene": "/workspace/tsgs_v13_scan24/data/scan24",
+  "dtu_gt": "/workspace/data/DTU/dtu_eval",
+  "images": 49,
+  "train_views": 42,
+  "test_views": 7,
+  "sparse_source": "/workspace/data/DTU/dtu_scan24/quality/official_2dgs_v085/sparse/0",
+  "camera_archive": "/workspace/data/DTU/dtu_scan24/cameras_sphere.npz"
+}
